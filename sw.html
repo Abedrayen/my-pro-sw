@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>café la douce</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Owl  Carouse css -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Owl  Carouse css -->
+
+
+  <!-- jquery   -->
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <!-- jquery   -->
+
+</head>
+
+<body>
+
+  <section class="head">
+    <div class="content flex1">
+      <div class="social_media flex">
+        <span>Visitez-nous</span>
+        <hr>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+
+      <div class="logo">
+        <img src="" alt="">
+      </div>
+
+      <div class="account social_media flex">
+        <i class="fas fa-user"></i>
+        <i class="fas fa-shopping-bag"></i>
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+  </section>
+
+
+  <header>
+    <nav>
+      <div id="mySidenav" class="sidenav">
+        <span class="closebtn " onclick="closeNav()">&times;</span>
+        <div class="menu_items">
+          <a href="#"> Acceuil </a>
+          <a href='#'> À propos  </a>
+          <a href='#'> Produits </a>
+          <a href='#'> Blog </a>
+          <a href='#'> Contact </a>
+        </div>
+      </div>
+      <div class="social_media">
+        <i class="fas fa-bars hamburger-icon " onclick="openNav()"></i>
+      </div>
+    </nav>
+  </header>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+
+
+
+  <section class="home">
+    <div class="item">
+      <div class="heading">
+        <h1> <span> café la douce </span>la saveur authentique</h1>
+        <p>Le goût authentique évoque des saveurs traditionnelles, préparées avec des ingrédients frais et locaux. Il célèbre l'héritage culinaire d'une région et offre une expérience sensorielle unique, loin des arômes artificiels. </p>
+      </div>
+      <div class="img">
+        <img src="m.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="menu top">
+    <div class="container">
+      <div class="heading">
+        <h5>nos-spécialités </h5>
+        <h2>les vedettes </h2>
+      </div>
+
+      <div class="owl-carousel owl-theme mtop">
+        <div class="item">
+          <div class="img">
+            <img src="chichaa.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>chicha</h3>
+            <p> En Tunisie, la chicha est une tradition sociale importante,Elle se compose de tabac aromatisé .</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="Thé 1.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>thé vert & noir </h3>
+            <p> En Tunisie, le thé est une boisson très prisée,Le thé est un symbole d'hospitalité et de convivialité.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="b.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>café express </h3>
+            <p> En Tunisie, le café expresso est très apprécié, il est apprécié pour son goût intense et sa richesse en arômes. .</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Owl  Carouse js file  -->
+  <script src="js/jquery3.4.1.min.js" charset="utf-8"></script>
+  <script src="js/owl.carousel.js" charset="utf-8"></script>
+  <!-- Owl  Carouse js file  -->
+
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: false,
+      dots: true,
+      responsive: {
+        511: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+  <section class="wrapper mtop">
+    <div class="container flex">
+      <div class="left  ">
+        <div class="heading heading2">
+          <h1> <span>Nos  Traditions<br></span>pour toi</h1>
+          <p>En Tunisie, le café est au cœur de la vie sociale. Il est souvent préparé de manière traditionnelle et servi avec soin dans les cafés ou lors de visites chez des amis. Le rituel de service, qui inclut souvent un verre d'eau, reflète l'hospitalité tunisienne et l'importance des moments partagés autour d'un bon café. </p>
+          <div class="text flex">
+            <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="add">
+              <h5>Localisation</h5>
+              <label>Sousse,corniche rue monji bali</label>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button>Read More</button>
+          <button class="btn1">Contact Us </button>
+        </div>
+      </div>
+      <div class="right">
+        <img src="r.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="list">
+    <div class="container">
+      <div class="grid">
+        <div class="box">
+          <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/80/ffffff/external-coffee-beans-coffee-shop-flatart-icons-outline-flatarticons.png" />
+          <p>Wide Assortment</p>
+        </div>
+        <div class="box">
+          <img src="https://img.icons8.com/ios/80/ffffff/meat-grinder.png" />
+          <p>Wide Assortment</p>
+        </div>
+        <div class="box">
+          <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/80/ffffff/external-cup-christmas-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" />
+          <p>Wide Assortment</p>
+        </div>
+        <div class="box">
+          <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/80/ffffff/external-certificate-investment-kiranshastry-lineal-kiranshastry.png" />
+          <p>Wide Assortment</p>
+        </div>
+        <div class="box">
+          <img src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/80/ffffff/external-leaf-spring-vitaliy-gorbachev-fill-vitaly-gorbachev.png" />
+          <p>Wide Assortment</p>
+        </div>
+        <div class="box">
+          <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/80/ffffff/external-coffee-beans-coffee-shop-flatart-icons-outline-flatarticons.png" />
+          <p>Wide Assortment</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="menu_list top">
+    <div class="container">
+      <div class="heading ">
+        <h5>café la douce </h5>
+        <h2>TARIF </h2>
+      </div>
+
+      <div class="content flex  ">
+        <div class="left">
+          <div class="box flex1 ">
+            <div class="img">
+              <img src="exp.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>café express </h3>
+            </div>
+            <hr>
+            <div class="price heading">
+              <h5>1.5dt </h5>
+            </div>
+          </div>
+          <div class="box flex1 ">
+            <div class="img">
+              <img src="filtre.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>café filtre  </h3>
+            
+            </div>
+            <hr>
+            <div class="price heading">
+              <h5>1.0dt </h5>
+            </div>
+          </div>
+          <div class="box flex1 ">
+            <div class="img">
+              <img src="capp.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Cappucin </h3>
+              
+            </div>
+            <hr>
+            <div class="price heading">
+              <h5>1.7dt </h5>
+            </div>
+          </div>
+          <div class="box flex1 ">
+            <div class="img">
+              <img src="tv.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>thé vet& noir </h3>
+              
+            </div>
+            <hr>
+            <div class="price heading">
+              <h5>1.0dt </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="box flex1 ">
+            <div class="img">
+              <img src="amer.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>café américain </h3>
+            
+            </div>
+            <hr>
+            <div class="price heading">
+              <h5>1.6dt</h5>
+            </div>
+          </div>
+          <div class="box flex1 ">
+            <div class="img">
+              <img src="coc.webp" alt="">
+            </div>
+            <div class="text">
+              <h3>Boisson </h3>
+             
+            </div>
+            <hr>
+            <div class="price heading">
+              <h5>2.0dt </h5>
+            </div>
+          </div>
+          <div class="box flex1 ">
+            <div class="img">
+              <img src="croi.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>croissant </h3>
+              
+            </div>
+            <hr>
+            <div class="price heading">
+              <h5>1.5dt </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="opentime flex1 mtop">
+    <div class="left">
+      <div class="heading">
+        <h1> <span> <br> </span> </h1>
+        <i class="fas fa-paly"></i>
+      </div>
+      <div class="img">
+        <img src="ess.jpg" alt="">
+      </div>
+    </div>
+    <div class="right">
+      <div class="box box1">
+        <div class="img">
+          <img src="backr.jpg" alt="">
+        </div>
+        <div class="heading">
+          <h1> <span>Heure de travaille</span></h1>
+        </div>
+        <div class="time">
+          <div class="day flex1">
+            <h4>Lundi:</h4>
+            <h5>5:00 – 22:00 </h5>
+          </div>
+          <div class="day flex1">
+            <h4>Mardi:</h4>
+            <h5>5:00 – 22:00 </h5>
+          </div>
+          <div class="day flex1">
+            <h4>Mercredi:</h4>
+            <h5>5:00 – 22:00 </h5>
+          </div>
+          <div class="day flex1">
+            <h4>Jeudi:</h4>
+            <h5>5:00 – 22:00 </h5>
+          </div>
+          <div class="day flex1">
+            <h4>Vendredi:</h4>
+            <h5>5:00 – 22:00 </h5>
+          </div>
+          <div class="day flex1">
+            <h4>Samedi:</h4>
+            <h5>5:00 – 22:00 </h5>
+          </div>
+          <div class="day flex1">
+            <h4>dimanche: </h4>
+            <h5>5:00–22:00</h5>
+          </div>
+        </div>
+      </div>
+      <div class="box box2">
+        <div class="img">
+          <img src="p.jpg" alt="">
+        </div>
+        <div class="heading">
+          <h1> <span>Sousse </span> <br>corniche
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="product mtop">
+    <div class="heading">
+      <h5>nos narguilé </h5>
+      <h2>Profitez du goût de la chicha</h2>
+      <p>Fumer la chicha est un moment de détente et de convivialité, profondément ancré dans la culture tunisienne. </p>
+    </div>
+
+    <div class="content grid mtop">
+      <div class="box">
+        <div class="img">
+          <img src="33.jpg" alt="">
+        </div>
+        <div class="text">
+          <div class="rate flex">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>chicha chikh el balad</h4>
+          <h5>11dt</h5>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="lovee.jpg" alt="">
+        </div>
+        <div class="text">
+          <div class="rate flex">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>love adalya</h4>
+          <h5>7.5dt</h5>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="تفاح22.jpg" alt="">
+        </div>
+        <div class="text">
+          <div class="rate flex">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>Mazaya & fakher pomme</h4>
+          <h5>6.5dt</h5>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="نعناع.jpg" alt="">
+        </div>
+        <div class="text">
+          <div class="rate flex">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>Mazaya & fakher monthe</h4>
+          <h5>6.5dt</h5>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+
+
+  <section class="wrapper customer mtop">
+    <div class="container">
+      <div class="owl-carousel owl-carousel2 owl-theme mtop">
+        <div class="items">
+          <i class="fas fa-quote-right"></i>
+          <p>En tant que chef de café, je suis maître de l'art du café, responsable de la préparation et de la présentation de boissons exceptionnelles. Expert en torréfaction et en techniques d'infusion, je crée des expériences uniques pour les clients. Avec un sens aigu du détail et une passion pour le café, je transforme chaque tasse en un moment de plaisir raffiné.</p>
+          <div class="img">
+            <img src="ali.jpg" alt="">
+          </div>
+          <h5>Landolsi Ali</h5>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    $('.owl-carousel2').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      navText: ["<i class='far fa-long-arrow-alt-left'></i>", "<i class='far fa-long-arrow-alt-right'></i>"],
+      items: 1
+    })
+  </script>
+
+
+  <section class="brand">
+    <div class="container grid">
+      <div class="img">
+        <img src="ca neb.jpg" alt="">
+      </div>
+      <div class="img">
+        <img src="mazaya.jpg" alt="">
+      </div>
+      <div class="img">
+        <img src="coca.png" alt="">
+      </div>
+      <div class="img">
+        <img src="safia.jfif" alt="">
+      </div>
+      <div class="img">
+        <img src="dr.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+ 
+
+
+  <footer>
+    <div class="footerbg">
+      <div class="content grid">
+        <div class="box">
+          <div class="logo">
+            <img src="" alt="">
+          </div>
+          <p> Bienvenue ! Profitez de notre café et de nos pâtisseries. Notre équipe est à votre service.</p>
+          <div class="icon flex">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <div class="address">
+            <div class="item flex">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text">
+                <h5>Our Location:</h5>
+                <span>Sousse-Corniche </span>
+              </div>
+            </div>
+            <div class="item flex">
+              <div class="icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="text">
+                <h5>Phone Number:</h5>
+                <span>+216 21 380 385</span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Inscrivez-vous</h3>
+
+          <div class="input flex1">
+            <input type="text" placeholder="Your Email">
+            <input type="submit" value="Subscribe" class="submit">
+          </div>
+          <div class="check">
+            <input type="checkbox">
+            <span> J'ai lu et j'accepte les termes et conditions.</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="legal">
+        <p>&copy; 1992 café la douce. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <link rel="stylesheet" href="sw.css">
+
+</body>
+
+</html>
